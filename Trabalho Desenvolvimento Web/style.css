@@ -1,0 +1,558 @@
+@import url('https://fonts.cdnfonts.com/css/pricedown'); /* Importando a Fonte Pricedown */
+
+/* ---Estilização Base--- */ /* Base da Página + Estilos Genéricos */ /* -------------------------------------------------------*/
+/* ~~Alicerce~~ */
+/* Fundo */
+body {
+    margin: 0;
+    background-color: rgb(120, 0, 0);
+}
+
+/* Fundo */
+/* Plano Main */
+.pdm-headimage {
+    margin: 0;
+    padding: 0;
+
+    filter: brightness(60%);
+
+    border-color: rgb(253, 70, 70);
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 20px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.pdm-banner {
+    width: 100%;
+    height: auto;
+    max-height: 55vh;
+    min-height: 45vh;
+
+    margin: 0;
+
+    background-image: url(https://t4.ftcdn.net/jpg/03/08/44/53/360_F_308445331_ZZinysRse5xOZacNTnoQqG24TAy7ftZ5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pdm-logo {
+    margin: 3% auto auto 9%;
+
+    width: 60vh;
+    opacity: 80%;
+}
+
+.pdm-motto {
+    margin: 0 auto auto 9%;
+
+    font-size: 175%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+main {
+    margin: -8vh auto auto auto;
+    left: auto;
+    right: auto;
+
+    height: 80%;
+    width: 70%;
+
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+
+    background-color: rgb(60, 0, 0);
+
+    text-align: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+
+    margin: 5vh 0 0 0;
+    width: 100%;
+
+    color: white;
+}
+
+/* Plano Main */
+/* ~~Alicerce~~ */
+/* ~~Elementos Core~~ */
+/* Main Cores */
+.welcome {
+    font-size: 5vh;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 32px;
+    color: yellow;
+}
+
+.menu-text {
+    font-size: 4vh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+table {
+    margin: 0 auto 4vh auto;
+    border-spacing: 0px 14vh;
+}
+
+.menu-option {
+    font-size: 3vh;
+    text-decoration: none;
+    outline: none;
+
+    background-color: rgb(235, 235, 235);
+    padding: 5vh;
+
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vh;
+    color: rgb(60, 60, 60);
+
+    border: 0.5vh white solid;
+}
+
+/* Main Cores */
+/* Footer Cores */
+.pdm-footrow {
+    margin: auto 0 auto 0;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    position: relative;
+    z-index: 1;
+}
+
+.pdm-legal {
+    flex: 1;
+}
+
+#pdm-legal-links {
+    text-align: end;
+}
+
+.reference {
+    width: auto;
+    height: 3vh;
+
+    margin: 0.5vh 1vw auto auto;
+
+    position: relative;
+    z-index: 1;
+}
+
+#firstReference {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#secReference {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#thirdReference {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/* Footer Cores */
+/* ~~Elementos Core~~ */
+/* ~~Elementos Genéricos~~ */
+#marked {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+button, #clickable {
+    cursor: pointer;
+}
+
+/* ~~Elementos Genéricos~~ */
+/* ---Estilização Base--- */ /* ---------------------------------------------------------------------------------------------*/
+/* ---Estilização Sobre Nós---*/ /* --------------------------------------------------------------------------------------------*/
+/* ~~Genéricos~~ */
+.info-header {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 7vh;
+    color: rgb(210, 180, 0);
+
+    margin: 0.5vh auto 3vh auto;
+}
+.info-div {
+    display: flex;
+}
+
+/* ~~Genéricos~~ */
+/* ~~Específicos~~ */
+/* Simeon */
+.simeon-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+
+#simeon-div {
+    margin-right: 2.5%;
+
+    min-height: 60vh;
+    width: 200%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#simeon-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Simeon */
+/* Personal Motorsport Deluxe */
+.pdm-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 2.5%;
+    margin-left: 5%;
+}
+
+#pdm-div {
+    margin-left: 2.5%;
+
+    min-height: 30vh;
+    width: 350%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#pdm-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Personal Motorsport Deluxe */
+/* Membership */
+.member-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+
+#member-div {
+    margin-right: 2.5%;
+
+    min-height: 60vh;
+    width: 200%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#member-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Membership */
+/* ~~Específicos~~ */
+/* ---Estilização Sobre Nós---*/ /* --------------------------------------------------------------------------------------------*/
+/* ---Estilização Mecânicos---*/ /* --------------------------------------------------------------------------------------------*/
+/* ~~Genéricos~~ */
+#mechanic-table {
+    width: 90%;
+}
+
+.mechanic-option {
+    border: 0.5vh lightgray solid;
+    background-color: aliceblue;
+    color: black;
+}
+
+.mechanic-div{
+    display: flex;
+}
+
+.mechanic-img {
+    width: 20vw;
+
+    border: 3px black solid;
+}
+
+.mechanic-name {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 12vh;
+    color: rgb(210, 180, 0);
+}
+
+.mechanic-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8vh;
+
+    margin: 5vh 5vw
+}
+
+/* ~~Específicos~~ */
+#mn-franklin {
+    margin: 1.5vh auto 1.5vh auto;
+}
+
+#mn-lamar {
+    margin: 1.5vh auto 1.5vh auto;
+}
+
+#franklin-img {
+    margin-left: 1.5vw;
+}
+
+#lamar-img {
+    margin-right: 1.5vw;
+}
+
+/* ---Estilização Mecânicos---*/ /* --------------------------------------------------------------------------------------------*/
+
+#login-div {
+    color: white;
+}
+
+.form-inp {
+    margin: 4px;
+}
+
+#form-sbmt {
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#blur-bright {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0%;
+
+    filter: brightness(10%) blur();
+
+    position: fixed;
+    z-index: 0;
+}
+
+#black-image {
+    height: fit-content;
+}
+
+.linkLookAlike {
+    color: #069;
+    cursor: pointer;
+}
+
+#register-div {
+    position: fixed;
+    z-index: 0;
+
+    width: 90%;
+    height: 80%;
+
+    opacity: 0%;
+
+    background-color: white;
+    border: 5px red solid;
+
+    top: 10%;
+    left: 4%;
+    
+    text-align: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#register-form {
+    display: grid;
+    grid-gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+#reg-email {
+    width: 200px;
+}
+
+#reg-password {
+    width: 200px;
+}
+
+#reg-phone {
+    width: 200px;
+}
+
+.warning {
+    font-size: 32px;
+    color: rgb(250, 0, 70);
+}
+
+#legal-war {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.legal {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#legal-prem {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+#reg-sbmt {
+    padding-left: auto;
+    padding-right: auto;
+
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
+
+#close-button {
+    margin-left: 98.25%;
+
+    background-color: black;
+    color: red;
+}
+
+#tableFranklin {
+    border-collapse: collapse;
+    border: 5px gray solid;
+    margin: 50px auto;
+    background-color: lightblue;
+}
+
+.thFranklin {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+}
+
+.thFranklin, #tdFranklin {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.past {
+    background-color: #eee;
+}
+
+.busy {
+    background-color: #ff6666;
+    color: white;
+}
+
+.free {
+    background-color: #66ff66;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #000;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#franklin-header {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 72px;
+    color: rgb(210, 180, 0);
+}
+
+#franklin-desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: white;
+
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#franklin-phone{
+    font-size: 48px;
+    color: white;
+
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 20%;
+
+    letter-spacing: 2px;
+}
+
+.cars-box {
+    background-color: white;
+    border: 3px gray solid;
+}
