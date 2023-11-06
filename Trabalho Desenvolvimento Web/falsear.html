@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listagem de Dados</title>
+</head>
+<body>
+
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>carro</th>
+            <th>cor</th>
+            <th>preco</th>
+            <th>celular</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script>
+// Função para buscar dados do servidor e criar a tabela
+function fetchData() {
+    fetch('PHP-falsear.php')
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.querySelector('#data-table tbody');
+            tableBody.innerHTML = '';
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${row.carro}</td>
+                    <td>${row.cor}</td>
+                    <td>${row.preco}</td>
+                    <td>${row.celular}</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+        })
+        .catch(error => {
+            console.error('Erro ao buscar dados: ' + error);
+        });
+}
+
+// Chame a função para buscar os dados
+fetchData();
+</script>
+
+</body>
+</html>

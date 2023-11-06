@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Premium Deluxe Motorsport</title>
+</head>
+<body>
+    <div class="pdm-headimage">
+        <div class="pdm-banner">
+            <img src="pdm-logo.png" class="pdm-logo" alt="Simeon Yetarian, 2013">
+            <p class="pdm-motto">ALTO DESEMPENHO POR PREÇOS INCRÍVEIS</p>            
+        </div>
+    </div>
+    <main class="main3">
+        <h1 class="welcome">Bem-vindo à <span id="marked">Premium Deluxe Motorsport</span>!</h1>
+        <p class="menu-text">Novidades</p>
+        <div class="cars-table">
+            <div class="car-filters">
+                <form>
+                    <label for="filter">Filtrar:</label>
+                    <select class="menu-filter" id="tipoCarroSelect" onchange="loadCarros(1, this.value)">
+                        <option value="Tudo">-Sem Filtro-</option>
+                        <option value="Compactos">Compactos</option>
+                        <option value="Motocicletas">Motocicletas</option>
+                        <option value="Coupé">Coupé</option>
+                        <option value="Carros Muscle">Carros Muscle</option>
+                        <option value="Off-Roads">Off-Road's</option>
+                        <option value="Sedans">Sedans</option>
+                        <option value="Esportivos">Esportivos</option>
+                        <option value="Esportivos Clássicos">Esportivos Clássico</option>
+                        <option value="Supercarros">Supercarros</option>
+                        <option value="SUV">SUV's</option>
+                        <option value="Vans">Vans</option>
+                    </select>
+                </form>
+            </div>
+            <div class="car-division">
+                <div class="cars-box" id="car1">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                    </div>
+                <div class="cars-box" id="car2">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                </div>
+                <div class="cars-box" id="car3">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-division">
+                <div class="cars-box" id="car4">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                </div>
+                <div class="cars-box" id="car5">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                </div>
+                <div class="cars-box" id="car6">
+                    <div>
+                        <header class="car-name">Zentorno</header>
+                    </div>
+                    <img class="cars-img" id="img-base" src="null.png">
+                    <div class="buy-div">
+                        <div class="car-price">1,799,999,99 U$D</div><button type="button" class="buy-car" onclick="comprarCarro(this)">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cars-tooltip">
+                <div id="carbox-prev" onclick="carboxPrev()">&lt;</div>
+                <div id="carbox-list"><span id="carlistNow"></span> de <span id="carlistTotal"></span></div>
+                <div id="carbox-next" onclick="carboxNext()">&gt;</div>
+            </div>
+        </div>
+        <table class="menu-table">
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('index.html')"><a href="index.html" class="option-text">Página Inicial</a></td>
+            </tr>
+        </table>
+    </main>
+    <div id="purchasingCar-div"></div>
+    <div id="blur-bright">
+        <img src="Black.png" id="black-image">
+    </div>
+    <footer class="footer">
+        <div class="pdm-footrow">
+            <a class="pdm-legal">&copy; 2023 Todos os Direitos Reservados.</a>
+            <img src="ying-yang.png" class="reference" id="clickable" onclick="soundEffect('touhouDeath.mp3')">
+            <img src="gta.png" class="reference" id="clickable" onclick="soundEffect('grandTheftAuto.3gp')">
+            <img src="csgo.png" class="reference" id="clickable" onclick="soundEffect('counterStrike.mp3')">
+            <a class="pdm-legal" id="pdm-legal-links"><span onclick="redirectUser('useTerms.html')" id="clickable">Termos de Uso</span> &bull; <span onclick="redirectUser('privacy.html')" id="clickable">Política de Privacidade</span></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

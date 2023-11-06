@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Premium Deluxe Motorsport</title>
+</head>
+<body>
+    <div class="pdm-headimage">
+        <div class="pdm-banner">
+            <img src="pdm-logo.png" class="pdm-logo" alt="Simeon Yetarian, 2013">
+            <p class="pdm-motto">ALTO DESEMPENHO POR PREÇOS INCRÍVEIS</p>            
+        </div>
+    </div>
+    <main>
+        <h1 class="welcome">Bem-vindo à <span id="marked">Premium Deluxe Motorsport</span>!</h1>
+        <p class="menu-text">O Que Deseja?</p>
+        <table class="home-menu">
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('info.html')"><a href="info.html" class="option-text">Sobre Nós</a></td>
+            </tr>
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('cars.html')"><a href="cars.html" class="option-text">Carros à Venda</a></td>
+            </tr>
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('mechanic.html')"><a href="mechanic.html" class="option-text">Mecânicos</a></td>
+            </tr>
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('premium.html')"><a class="option-text">Login Premium</a></td>
+            </tr>
+        </table>
+    </main>
+    <footer class="footer">
+        <div class="pdm-footrow">
+            <a class="pdm-legal">&copy; 2023 Todos os Direitos Reservados.</a>
+            <img src="ying-yang.png" class="reference" id="clickable" onclick="soundEffect('touhouDeath.mp3')">
+            <img src="gta.png" class="reference" id="clickable" onclick="soundEffect('grandTheftAuto.3gp')">
+            <img src="csgo.png" class="reference" id="clickable" onclick="soundEffect('counterStrike.mp3')">
+            <a class="pdm-legal" id="pdm-legal-links"><span onclick="redirectUser('useTerms.html')" id="clickable">Termos de Uso</span> &bull; <span onclick="redirectUser('privacy.html')" id="clickable">Política de Privacidade</span></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,880 @@
+@import url('https://fonts.cdnfonts.com/css/pricedown'); /* Importando a Fonte Pricedown */
+
+/* ---Estilização Base--- */ /* Base da Página + Estilos Genéricos */ /* -------------------------------------------------------*/
+/* ~~Alicerce~~ */
+/* Fundo */
+body {
+    margin: 0;
+    background-color: rgb(120, 0, 0);
+}
+
+/* Fundo */
+/* Plano Main */
+.pdm-headimage {
+    margin: 0;
+    padding: 0;
+
+    filter: brightness(60%);
+
+    border-color: rgb(253, 70, 70);
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 2.5vh;
+
+    position: relative;
+    z-index: 1;
+}
+
+.pdm-banner {
+    width: 100%;
+    height: auto;
+    min-height: 28.5vw;
+
+    margin: 0;
+
+    background-image: url(https://t4.ftcdn.net/jpg/03/08/44/53/360_F_308445331_ZZinysRse5xOZacNTnoQqG24TAy7ftZ5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pdm-logo {
+    margin: 5.5vw auto auto 12vw;
+
+    width: 40%;
+    opacity: 80%;
+}
+
+.pdm-motto {
+    margin: 1% auto auto 8vw;
+
+    font-size: 2.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+main {
+    margin: -8vh auto auto auto;
+    left: auto;
+    right: auto;
+
+    height: 80%;
+    width: 85%;
+
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+
+    background-color: rgb(60, 0, 0);
+
+    text-align: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+
+    margin: 5vh 0 0 0;
+    width: 100%;
+
+    color: white;
+}
+
+/* Plano Main */
+/* ~~Alicerce~~ */
+/* ~~Elementos Core~~ */
+/* Main Cores */
+.welcome {
+    font-size: 5vh;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 32px;
+    color: yellow;
+}
+
+.menu-text {
+    font-size: 4vh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.home-menu {
+    margin: 0 auto 5% auto;
+    border-spacing: 5vh;
+
+    width: 85%;
+}
+
+.menu-option {
+    background-color: rgb(235, 235, 235);
+    padding: 10%;
+
+    text-align: center;
+
+    border: 0.25vh white solid;
+}
+
+.option-text {
+    text-decoration: none;
+    outline: none;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6vw;
+    color: rgb(60, 60, 60);
+}
+
+/* Main Cores */
+/* Footer Cores */
+.pdm-footrow {
+    margin: auto 0 auto 0;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    position: relative;
+    z-index: 1;
+}
+
+.pdm-legal {
+    flex: 1;
+}
+
+#pdm-legal-links {
+    text-align: end;
+}
+
+.reference {
+    width: auto;
+    height: 3vh;
+
+    margin: 0.5vh 1vw auto auto;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Footer Cores */
+/* ~~Elementos Core~~ */
+/* ~~Elementos Genéricos~~ */
+/* Menus */
+.cars-menu { /*Carros*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    align-self: center;
+}
+
+.mechanic-table { /*Carros*/
+    margin: 0 auto 5% auto;
+    border-spacing: 5vh;
+
+    width: 85%;
+}
+
+.menu-table { /*Botão de Volta*/
+    margin: 0 auto 5% auto;
+    border-spacing: 5vh;
+
+    width: 85%;
+}
+
+#menu-table { /*Botão de Volta*/
+    margin: 0 auto 5% auto;
+    border-spacing: 5vh;
+
+    width: 85%;
+}
+
+/* Menus */
+#marked {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+button, #clickable, .linkLookAlike {
+    color: #069;
+    cursor: pointer;
+}
+
+/* ~~Elementos Genéricos~~ */
+/* ---Estilização Base--- */ /* ---------------------------------------------------------------------------------------------*/
+/* ---Estilização Sobre Nós---*/ /* --------------------------------------------------------------------------------------------*/
+/* ~~Genéricos~~ */
+.info-header {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 7vh;
+    color: rgb(210, 180, 0);
+
+    margin: 0.5vh auto 3vh auto;
+}
+.info-div {
+    display: flex;
+}
+
+/* ~~Genéricos~~ */
+/* ~~Específicos~~ */
+/* Simeon */
+.simeon-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+
+#simeon-div {
+    margin-right: 2.5%;
+
+    min-height: 60vh;
+    width: 200%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#simeon-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Simeon */
+/* Personal Motorsport Deluxe */
+.pdm-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 2.5%;
+    margin-left: 5%;
+}
+
+#pdm-div {
+    margin-left: 2.5%;
+
+    min-height: 30vh;
+    width: 350%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#pdm-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Personal Motorsport Deluxe */
+/* Membership */
+.member-p {
+    text-align: justify;
+
+    font-size: 2.5vh;
+    color: white;
+    
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+
+#member-div {
+    margin-right: 2.5%;
+
+    min-height: 60vh;
+    width: 200%;
+
+    border: 0.25vh white solid;
+
+    position: relative;
+    z-index: 1;
+}
+
+#member-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* Membership */
+/* ~~Específicos~~ */
+/* ---Estilização Sobre Nós---*/ /* --------------------------------------------------------------------------------------------*/
+/* ---Estilização Mecânicos---*/ /* --------------------------------------------------------------------------------------------*/
+/* ~~Genéricos~~ */
+#mechanic-table {
+    width: 90%;
+}
+
+.mechanic-option {
+    border: 0.5vh lightgray solid;
+    background-color: aliceblue;
+    color: black;
+}
+
+.mechanic-div{
+    display: flex;
+}
+
+.mechanic-img {
+    width: 20vw;
+
+    border: 3px black solid;
+}
+
+.mechanic-name {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 12vh;
+    color: rgb(210, 180, 0);
+}
+
+.mechanic-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8vh;
+
+    margin: 5vh 5vw
+}
+
+/* ~~Genéricos~~ */
+/* ~~Específicos~~ */
+#mn-franklin {
+    margin: 1.5vh auto 1.5vh auto;
+}
+
+#mn-lamar {
+    margin: 1.5vh auto 1.5vh auto;
+}
+
+#franklin-img {
+    margin-left: 1.5vw;
+}
+
+#lamar-img {
+    margin-right: 1.5vw;
+}
+
+/* ~~Específicos~~ */
+/* ~~JavaScript~~ */
+/* Gerais */
+#mech-header {
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 72px;
+    color: rgb(210, 180, 0);
+}
+
+#mech-desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: white;
+
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#mech-phone{
+    font-size: 48px;
+    color: white;
+
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 20%;
+
+    letter-spacing: 2px;
+}
+/* Gerais */
+/* Calendário */
+#tableCalendar {
+    border-collapse: collapse;
+    border: 0.5vh gray solid;
+    margin: 1vh auto;
+    background-color: lightblue;
+}
+
+.thCalendar {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+}
+
+.thCalendar, #tdCalendar {
+    border: 0.2vw solid #ccc;
+    padding: 2vw;
+    text-align: center;
+}
+
+th button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.past {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.busy {
+    background-color: #ff6666;
+    color: white;
+    cursor: pointer;
+}
+
+.free {
+    background-color: #66ff66;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1;
+
+    display: block;
+    padding: 1vw;
+    border-radius: 1vh;
+
+    background-color: #000;
+    color: yellow;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Calendário */
+/* ~~JavaScript~~ */
+/* ---Estilização Mecânicos---*/ /* --------------------------------------------------------------------------------------------*/
+/* ---Estilização Cadastro---*/ /* --------------------------------------------------------------------------------------------*/
+/* ~~Forma de Login~~ */
+#login-div {
+    color: white;
+
+    font-size: 5vh;
+
+    margin: auto auto 30vh auto;
+}
+
+.premium-div{
+    display: inline-flex;
+    align-items: center;
+}
+
+.form-inp {
+    margin: 1vh;
+    width: 15vw;
+    height: 3vh;
+}
+
+#form-sbmt {
+    margin: 1vh;
+    font-size: 5vh;
+    height: auto;
+}
+
+/* ~~Forma de Login~~ */
+/* ~~Forma de Cadastro~~ */
+/* Base */
+/* -> DIV de Registro <- */
+#register-div {
+    position: fixed;
+    opacity: 0;
+
+    width: 90%;
+
+    background-color: white;
+    border: 0.5vh red solid;
+
+    top: 10%;
+    left: 4%;
+
+    display: grid;
+    text-align: center;
+}
+
+#close-button {
+    position: relative;
+
+    justify-self: end;
+    align-self: baseline;
+
+    background-color: black;
+    color: red;
+}
+
+/* -> DIV de Registro <- */
+/* -> Estilização Aviso <- */
+.warning {
+    font-size: 5.5vh;
+    color: rgb(250, 0, 70);
+
+    margin: 1vh auto;
+}
+
+.legal {
+    text-align: justify;
+    letter-spacing: 0.05vw;
+    margin: 1vh auto;
+}
+
+#legal-prem {
+    margin: 2vh 20vw;
+}
+
+/* -> Estilização Aviso <- */
+/* -> Estilização Forms <- */
+#register-form {
+    display: grid;
+    grid-gap: 0.25vh;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5vh auto;
+}
+
+#reg-sbmt {
+    width: 10vw;
+    justify-self: center;
+}
+
+/* -> Estilização Forms <- */
+/* Base */
+/* Fundo */
+#blur-bright {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0%;
+
+    filter: brightness(10%) blur();
+
+    position: fixed;
+    z-index: 0;
+}
+
+#black-image {
+    height: fit-content;
+}
+/* Fundo */
+/* ~~Forma de Cadastro~~ */
+/* ---Estilização Cadastro---*/ /* --------------------------------------------------------------------------------------------*/
+/* ---Estilização Carros Front---*/ /* ------------------------------------------------------------------------------------------*/
+/* ~~Base~~ */
+/*Mesa*/
+.cars-table {
+    display: grid;
+}
+
+.car-division {
+    width: 100%; /* Isso garante que as colunas estejam em uma única linha */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cars-box {
+    margin: 0.2vh;
+    width: 100%;
+    background-color: white;
+    border: 0.2vw gray solid;
+}
+
+.cars-img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-div {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #000;
+}
+
+.cars-tooltip{
+    background-color: aliceblue;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+/*Mesa*/
+/*Tooltip*/
+.car-filters {
+    color: aliceblue;
+    background-color: red;
+
+    justify-self: end;
+
+    border: 1vh gray solid;
+    border-radius: 1vw;
+    width: 20%;
+
+    margin: 0.5vh 0.5vw;
+}
+
+.menu-filter {
+    width: 100%;
+    font-family: cursive;
+
+    color: white;
+    background-color: darkred;
+}
+
+#carbox-prev {
+    font-size: 3vh;
+    cursor: pointer;
+    background-color: gray;
+    width: 30%;
+}
+
+#carbox-list {
+    font-size: 3vh;
+    font-family: fantasy;
+}
+
+
+#carbox-next {
+    font-size: 3vh;
+    cursor: pointer;
+    background-color: gray;
+    width: 30%;
+}
+
+/*Tooltip*/
+/* ~~Base~~ */
+/* ~~Menu de Compra~~ */
+.color-table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+}
+  
+.color-table div {
+    width: 5vh;
+    height: 5vh;
+    border: 0.2vh solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*Cores da Tabela*/
+.color-table .Branco { background-color: #ffffff; }
+.color-table .Preto { background-color: #000000; }
+.color-table .Vermelho { background-color: #ff0000; }
+.color-table .Azul { background-color: #0000ff; }
+.color-table .Verde { background-color: #00ff00; }
+.color-table .Amarelo { background-color: #ffff00; }
+.color-table .Natural { background-color: rgb(164, 173, 176); }
+.color-table .Rosa { background-color: rgb(255, 0, 212); }
+  
+#selectedColor {
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 3vh;
+    color: #000; /* Cor inicial do texto */
+}
+      
+.buy-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    width: 60vw;
+    margin: 0 auto;
+  
+    border: 0.5vw red solid;
+    background-color: darkred;
+  
+    padding: 2vh 1vw;
+  
+    position: fixed;
+    z-index: 0;
+    top: 25%;
+    left: 19.5%;
+}
+      
+#buy-mainOne {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    }
+  
+#buy-mainOne header {
+    font-size: 2vh;
+}
+  
+#buy-warn {
+    font-size: 1.5vh;
+    text-align: justify;
+}
+  
+#buy-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+  
+#buy-button {
+    font-size: 2vh;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 0.5vh 1vh;
+    cursor: pointer;
+}
+
+#cancelBuyButton {
+    font-size: 2vh;
+    background-color: rgb(236, 0, 32);
+    color: white;
+    border: none;
+    padding: 0.5vh 1vh;
+    cursor: pointer;
+}
+      
+#buy-button:hover {
+    background-color: #0056b3;
+}
+/* ~~Menu de Compra~~ */
+/* ~~Estilização Genérica~~ */
+.car-name {
+    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buy-car {
+    background-color: red;
+    color: white;
+
+    height: 100%;
+    width: 10vw;
+    margin: 0;
+
+    border: 0.2vh black solid;
+    border-radius: 0.75vw;
+
+    font-size: 2.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.car-price {
+    color: white;
+
+    font-size: 2.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ~~Estilização Genérica~~ */
+/* ---Estilização Carros Front---*/ /* ----------------------------------------------------------------------------------------*/
+/* ---Coisas Premium---*/ /* ----------------------------------------------------------------------------------------*/
+.body-premium {
+    background-color:rgb(102, 102, 13);
+}
+.pdm-headimage-premium {
+    margin: 0;
+    padding: 0;
+
+    filter: brightness(60%);
+
+    border-color: goldenrod;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 2.5vh;
+
+    position: relative;
+    z-index: 1;
+}
+.pdm-banner-premium {
+    width: 100%;
+    height: auto;
+    min-height: 28.5vw;
+
+    margin: 0;
+
+    background-image: url(pdm-logo-premium.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: grid;
+    justify-content: center;
+}
+
+.pdm-logo-premium {
+    width: 40%;
+    opacity: 80%;
+}
+
+.pdm-motto-premium {
+    font-size: 2.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gold;
+}
+
+.main-premium {
+    margin: -8vh auto auto auto;
+    left: auto;
+    right: auto;
+
+    height: 80%;
+    width: 85%;
+
+    border-color: gold;
+    border-style: solid;
+    border-width: 5px;
+
+    background-color: goldenrod;
+
+    text-align: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+.footer-premium {
+    position: relative;
+    z-index: 1;
+
+    margin: 5vh 0 0 0;
+    width: 100%;
+
+    color: yellow;
+}
+
+.welcome {
+    font-size: 5vh;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+#h1-premium {
+    font-size: 4vh;
+    color: red;
+}
+
+.menu-text-premium {
+    font-size: 4vh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkred;
+}

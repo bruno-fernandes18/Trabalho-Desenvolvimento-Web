@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Premium Deluxe Motorsport</title>
+</head>
+<body class="body-premium">
+    <div class="pdm-headimage-premium">
+        <div class="pdm-banner-premium">
+            <img src="pdm-logo.png" class="pdm-logo" alt="Simeon Yetarian, 2013">
+            <p class="pdm-motto-premium">EXPERIÊNCIA VERDADEIRAMENTE PREMIUM</p>            
+        </div>
+    </div>
+    <main class="main-premium">
+        <h1 class="welcome" id="h1-premium">Bem-vindo à Premium Deluxe Motorsport!</h1>
+        <p class="menu-text-premium">O Que Deseja?</p>
+        <table class="home-menu">
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('cars.html')"><a href="cars-premium.html" class="option-text">Concessionária Premium</a></td>
+            </tr>
+            <tr>
+                <td class="menu-option" onmouseover="lightUp(this)" onmouseout="backToNormal(this)" onclick="redirectUser('index.html')"><a href="index.html" class="option-text">Deslogar</a></td>
+            </tr>
+        </table>
+    </main>
+    <footer class="footer-premium">
+        <div class="pdm-footrow">
+            <a class="pdm-legal">&copy; 2023 Todos os Direitos Reservados.</a>
+            <img src="topgear.png" class="reference" id="clickable" onclick="soundEffect('topgear.mp3')">
+            <img src="saints.jpg" class="reference">
+            <img src="eu4.jpg" class="reference" id="clickable" onclick="soundEffect('eu4.mp3')">
+            <a class="pdm-legal" id="pdm-legal-links"><span onclick="redirectUser('useTerms.html')" id="clickable">Termos de Uso</span> &bull; <span onclick="redirectUser('privacy.html')" id="clickable">Política de Privacidade</span></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
